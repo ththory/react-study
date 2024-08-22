@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Profile from "./your-first-component/Profile";
+import TodoList from "./writing-markup-with-jsx/TodoList";
 
 function App() {
     return (
         <section>
-            <Profile></Profile>
+            <TodoList></TodoList>
         </section>
     );
 }
