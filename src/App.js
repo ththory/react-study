@@ -1,11 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
-import TodoList from "./writing-markup-with-jsx/TodoList";
-
+import Profile from "./passing-props-to-a-component/Profile";
 function App() {
     return (
         <section>
-            <TodoList></TodoList>
+            <Profile></Profile>
         </section>
     );
 }
