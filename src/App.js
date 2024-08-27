@@ -1,9 +1,9 @@
 import "./App.css";
-import Profile from "./passing-props-to-a-component/Profile";
+import PackingList from "./conditional-rendering/PackingList";
 function App() {
     return (
         <section>
-            <Profile></Profile>
+            <PackingList></PackingList>
         </section>
     );
 }
