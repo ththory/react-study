@@ -1,10 +1,9 @@
 import "./App.css";
-import PackingList from "./conditional-rendering/PackingList";
-import List from "./rendering-lists/List";
+import Signup from "./responding-to-events/Signup";
 function App() {
     return (
         <section>
-            <List></List>
+            <Signup></Signup>
         </section>
     );
 }
