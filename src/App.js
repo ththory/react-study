@@ -1,9 +1,10 @@
 import "./App.css";
-import Signup from "./responding-to-events/Signup";
+import Gallery from "./state-a-components-memory/Gallery";
+import Page from "./state-a-components-memory/Page";
 function App() {
     return (
         <section>
-            <Signup></Signup>
+            <Page></Page>
         </section>
     );
 }
