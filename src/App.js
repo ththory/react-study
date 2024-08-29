@@ -1,10 +1,9 @@
 import "./App.css";
-import Gallery from "./state-a-components-memory/Gallery";
-import Page from "./state-a-components-memory/Page";
+import Counter from "./queueing-a-series-of-state-updates/Counter";
 function App() {
     return (
         <section>
-            <Page></Page>
+            <Counter></Counter>
         </section>
     );
 }
