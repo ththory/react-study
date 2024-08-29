@@ -1,10 +1,10 @@
 import "./App.css";
-import Form from "./updating-objects-in-state/Form";
-import MovingDot from "./updating-objects-in-state/MovingDot";
+import BucketList from "./updating-arrays-in-state/BucketList";
+import List from "./updating-arrays-in-state/List";
 function App() {
     return (
         <section>
-            <Form></Form>
+            <BucketList></BucketList>
         </section>
     );
 }
