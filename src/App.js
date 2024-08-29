@@ -1,9 +1,10 @@
 import "./App.css";
-import Counter from "./queueing-a-series-of-state-updates/Counter";
+import Form from "./updating-objects-in-state/Form";
+import MovingDot from "./updating-objects-in-state/MovingDot";
 function App() {
     return (
         <section>
-            <Counter></Counter>
+            <Form></Form>
         </section>
     );
 }
