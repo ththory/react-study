@@ -1,12 +1,11 @@
 import "./App.css";
-import FeedbackForm from "./choosing-the-state-structure/FeedbackForm";
-import Form from "./reacting-to-input-with-state/Form";
-import BucketList from "./updating-arrays-in-state/BucketList";
-import List from "./updating-arrays-in-state/List";
+import Accordion from "./sharing-state-between-components/Accordion";
+import FilterableList from "./sharing-state-between-components/FilterableList";
+import SyncedInputs from "./sharing-state-between-components/SyncedInputs";
 function App() {
     return (
         <section>
-            <FeedbackForm></FeedbackForm>
+            <FilterableList></FilterableList>
         </section>
     );
 }
