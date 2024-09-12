@@ -1,0 +1,18 @@
+-   useState를 useReducer로 바꾸는 방법
+    -   state 설정하는 것에서 action을 dispatch 하는 것으로 바꾸기
+    -   reducer 함수 작성하기
+    -   컴포넌트에서 reducer 사용하기
+-   dispatch 안에 포함되어있는 것
+    -   action
+    -   type과 다른 필드를 포함하도록 해야한다.
+-   reduce함수의 역할
+    -   state에 대한 로직을 넣는 곳
+-   reducer 구성
+    -   인자값 → state, action
+-   useState vs useReducer 비교
+    -   코드 길이: 그냥은 useState가. 복합에서는 useReducer가
+    -   가독성: 그냥은 useState가. 복합에서는 useReducer가
+    -   디버깅: useState < useReducer
+    -   테스트: useReducer는 순수함수기 때문에 가능
+-   reducer는 반드시 순수해야함
+-   alert를 reducer 내부에서 수행하면 안됨! reducer는 오로지 state 변경만 수행해야한다

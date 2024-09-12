@@ -1,10 +1,9 @@
 import "./App.css";
-import Gallery from "./preserving-and-resetting-state/q4/Gallery";
-import ContactList from "./preserving-and-resetting-state/q5/ContactList";
+import Messenger from "./extracting-state-logic-into-a-reducer/Messenger";
 function App() {
     return (
         <section>
-            <ContactList></ContactList>
+            <Messenger></Messenger>
         </section>
     );
 }
