@@ -1,0 +1,12 @@
+-   prop drilling이란?
+    -   하위 컴포넌트로의 prop 전달을 위해 중간 컴포넌트를 거쳐 값을 전달하는 것
+    -   중간 컴포넌트에서 값을 사용하지 않더라도 전달을 해야함
+-   prop 사용의 장점
+    -   명시적인 사용으로 인해 어느 컴포넌트에서 어떤 prop를 사용했는지 명확히 확인할 수 있음
+    -   prop 추적이 쉬워 디버깅이나 코드 변경이 용이함
+-   context 사용 방법
+    -   context 생성 → 별도의 변수
+    -   데이터를 필요로 하는 곳에서 context 사용
+    -   데이터를 지정하는 곳에서 context 제공
+-   context 생성 문법
+    -   const LevelContext = createContext(1)
