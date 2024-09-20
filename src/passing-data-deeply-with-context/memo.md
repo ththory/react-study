@@ -10,3 +10,8 @@
     -   데이터를 지정하는 곳에서 context 제공
 -   context 생성 문법
     -   const LevelContext = createContext(1)
+-   context 남용 방지하기
+    -   props 전달하기
+    -   컴포넌트를 추출하여 jsx children으로 전달하기
+-   context를 사용했을때 유리한 상황
+    -   트리에서 멀리 떨어져 있는 다른 컴포넌트 끼리 동일한 값을 공유해야할 경우
