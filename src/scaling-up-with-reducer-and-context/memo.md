@@ -1,0 +1,7 @@
+-   context-reducer 병합 방법
+    -   state와 dispatch를 위한 context 생성
+    -   reducer를 사용하는 컴포넌트에 두 context 전달
+    -   하위 컴포넌트에서 context 사용
+-   context와 reducer를 하나의 파일로 관리하기
+    -   context-reducer 조합의 컴포넌트 생성
+    -   useTask와 같이 사용자 정의 Hook을 지정하여 사용
